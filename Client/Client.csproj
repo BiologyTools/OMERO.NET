@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientOMERO\ClientOMERO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="omero">
+      <HintPath>..\ClientOMERO\bin\Debug\net8.0-windows\omero.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
