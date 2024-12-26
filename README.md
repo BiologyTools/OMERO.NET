@@ -1,7 +1,7 @@
-# ClientOMERO
- C# Client for OMERO
+# OMERO.NET
+OMERO converted to .NET with IKVM.
 
-# Usage
+# Client Usage
 ```
 string hostname = "demo.openmicroscopy.org"; // OMERO server host
 int port = 4064;                             // OMERO server port
