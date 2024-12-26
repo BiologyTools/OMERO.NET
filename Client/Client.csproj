@@ -9,12 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClientOMERO\ClientOMERO.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="omero">
-      <HintPath>..\ClientOMERO\bin\Debug\net8.0-windows\omero.dll</HintPath>
+      <HintPath>..\ClientOMERO\bin\Release\net8.0\omero.dll</HintPath>
     </Reference>
   </ItemGroup>
 

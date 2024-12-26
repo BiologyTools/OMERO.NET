@@ -2,10 +2,22 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
+    <UseWindowsForms>false</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+	<Title>OMERO.NET</Title>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Version>1.0.0</Version>
+	<Authors>Erik Repo</Authors>
+	<PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<Description>OMERO.NET a .NET client for OMERO (5.6.9).</Description>
+	<RepositoryUrl>https://github.com/ome/openmicroscopy</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/BiologyTools/ClientOMERO</PackageProjectUrl>
+	<PackageTags>ome; omero;</PackageTags>
+	<PackageReleaseNotes>First release of OMERO.NET a .NET client for OMERO (5.6.9).</PackageReleaseNotes>  
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +27,14 @@
   </ItemGroup>
 	
   <ItemGroup>
-    <EmbeddedResource Remove="Form1.resx" />
+    <Content Include="omero.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		<Pack>True</Pack>
+		<PackagePath>\lib\net8.0</PackagePath>
+    </Content>
+    <Content Include="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 	<ItemGroup>
@@ -29,5 +48,12 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM" Version="8.10.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
