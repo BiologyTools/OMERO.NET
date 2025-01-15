@@ -16,7 +16,7 @@
 	<RepositoryUrl>https://github.com/ome/openmicroscopy</RepositoryUrl>
 	<PackageProjectUrl>https://github.com/BiologyTools/OMERO.NET</PackageProjectUrl>
 	<PackageTags>ome; omero;</PackageTags>
-	<PackageReleaseNotes>Added aliases to fix incompatibility with BioFormats.NET8 library.</PackageReleaseNotes>
+	<PackageReleaseNotes>Fixes issue with OMERO.NET and BioFormats which prevented files from being uploaded to OMERO.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
