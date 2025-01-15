@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{A1B09747-5A49-41F2-B119-BC95344AC21E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMERO.NET", "..\..\OMERO\OMERO\OMERO.NET.csproj", "{159EF0AD-7038-48EF-B9A7-E7BB8AF73ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMERO.NET", "ClientOMERO\OMERO.NET.csproj", "{D17DA578-6F85-4420-9037-D6EBD9D8AE15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{A1B09747-5A49-41F2-B119-BC95344AC21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B09747-5A49-41F2-B119-BC95344AC21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B09747-5A49-41F2-B119-BC95344AC21E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{159EF0AD-7038-48EF-B9A7-E7BB8AF73ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{159EF0AD-7038-48EF-B9A7-E7BB8AF73ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{159EF0AD-7038-48EF-B9A7-E7BB8AF73ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{159EF0AD-7038-48EF-B9A7-E7BB8AF73ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17DA578-6F85-4420-9037-D6EBD9D8AE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17DA578-6F85-4420-9037-D6EBD9D8AE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17DA578-6F85-4420-9037-D6EBD9D8AE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17DA578-6F85-4420-9037-D6EBD9D8AE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
